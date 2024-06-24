@@ -1,0 +1,127 @@
+{
+  "offlineAccess": true,
+  "licenseKey": "30d861ec-50b9-47b2-825c-1dbe6bfe8cc9",
+  "devtools_port": 9090,
+  "shortcut": {
+    "company": "LSEG",
+    "description": "LSEG Workspace",
+    "icon": "https://testbucket-narongsak.s3.ap-southeast-1.amazonaws.com/WORKSPACE_WINDOWS_PNG.png",
+    "name": "LSEG Workspace - Beta"
+  },
+  "runtime": {
+    "version": "34.118.78.80",
+    "arguments": "--security-realm=LSEG --enable-mesh "
+  },
+  "snapshot": {
+    "windows": []
+  },
+  "platform": {
+    "uuid": "10dd4600-afac-410f-b793-0ce3cac690c4",
+    "name": "LSEG Workspace - Beta",
+    "autoShow": false,
+    "_enableAppLogging": true,
+    "_logManagement": {
+      "enabled": true
+    },
+    "providerUrl": "https://workspace.ppe.refinitiv.com/public/workspace/2.3.0.13/index.html",
+    "icon": "https://testbucket-narongsak.s3.ap-southeast-1.amazonaws.com/WORKSPACE_WINDOWS_PNG.png",
+    "preventQuitOnLastWindowClosed": true,
+    "contextMenu": true,
+    "viewProcessAffinityStrategy": "different",
+    "enableJumpList": true,
+    "preloadScripts": [
+      {
+        "mandatory": true,
+        "url": "https://workspace.ppe.refinitiv.com/public/workspace/2.3.0.13/assets/debugging-tools/crashreporter/preload-crashreporter.js"
+      }
+    ],
+    "permissions": {
+      "System": {
+        "launchExternalProcess": true,
+        "readRegistryValue": true,
+        "terminateExternalProcess": true,
+        "downloadAsset": true,
+        "openUrlWithBrowser": {
+          "enabled": true,
+          "protocols": ["mailto", "msteams", "tel"]
+        },
+        "registerCustomProtocol": {
+          "enabled": true,
+          "protocols": ["refinitiv", "eikon", "reuters", "lseg", "rmchat", "rm"]
+        },
+        "unregisterCustomProtocol": {
+          "enabled": true,
+          "protocols": ["refinitiv", "eikon", "reuters", "lseg", "rmchat", "rm"]
+        },
+        "getCustomProtocolState": {
+          "enabled": true,
+          "protocols": ["refinitiv", "eikon", "reuters", "lseg", "rmchat", "rm"]
+        }
+      },
+      "webAPIs": [
+        "notifications",
+        "audio",
+        "video",
+        "clipboard-read",
+        "clipboard-sanitized-write",
+        "hid",
+        "usb"
+      ],
+      "devices": [
+        {
+          "vendorId": 5950,
+          "productId": 102
+        },
+        {
+          "vendorId": 5950,
+          "productId": 99
+        }
+      ]
+    },
+    "defaultViewOptions": {
+      "permissions": {
+        "webAPIs": [
+          "notifications",
+          "audio",
+          "video",
+          "clipboard-read",
+          "clipboard-sanitized-write",
+          "usb",
+          "hid"
+        ]
+      },
+      "preloadScripts": [
+        {
+          "mandatory": true,
+          "url": "https://workspace.ppe.refinitiv.com/public/workspace/2.3.0.13/assets/debugging-tools/crashreporter/preload-crashreporter.js"
+        }
+      ]
+    }
+  },
+  "supportInformation": {
+    "company": "LSEG",
+    "product": "Workspace",
+    "email": "customersupport@refinitiv.com",
+    "moreInfoUrl": "https://my.refinitiv.com/content/mytr/en/helpandsupport.html"
+  },
+  "dialogSettings": {
+    "logo": "https://workspace.ppe.refinitiv.com/public/libs/workspace-assets/logo.png",
+    "bgColor": 4294440951,
+    "textColor": 4280361249,
+    "progressBarBgColor": 4293980400,
+    "progressBarFillColor": 4281551871,
+    "progressBarBorderColor": 4293980400
+  },
+  "workspace": {
+    "version": "2.3.0.13",
+    "configuration": {}
+  },
+  "appAssets": [
+    {
+      "alias": "workspace-node-service-win",
+      "src": "https://workspace.ppe.refinitiv.com/public/workspace/2.3.0.13/assets/workspace-node-service-win.1.0.0.zip",
+      "version": "1.0.0",
+      "target": "node_18.18.2.exe"
+    }
+  ]
+}
